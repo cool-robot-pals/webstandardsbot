@@ -18,7 +18,8 @@ const stringys = [
 	|＿＿＿＿＿| 
 	 (\__/)  || 
 	 (•ㅅ•) || 
-	 / 　 づ`
+	 / 　 づ`,
+	`Still using $1? $2 will Blow Your Mind`,
 ];
 
 const extras = ['LOL', '😻', '😜', '🥰', 'New blogpost:', 'We need to talk:', '🔥🔥🔥']
