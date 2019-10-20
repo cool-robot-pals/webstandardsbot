@@ -18,4 +18,10 @@ module.exports = [
 	'WASM',
 	'dotnet core',
 	'Cordova',
+	'Microsoft Teams',
+	'Three.js',
+	'Angular 1',
+	'MongoDB',
+	'GNU/Linux',
+	'Hadoop',
 ];
