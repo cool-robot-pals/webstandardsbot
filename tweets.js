@@ -22,7 +22,7 @@ There I said it.
 / 　 づ`,
 	`Still using $1? $2 will Blow Your Mind`,
 	`Did you know about $2? Try it if you're still using $1!`,
-	`$1 is dead. Time to switch to $2.`
+	`$1 is dead. Time to switch to $2.`,
 	`Multiple CVEs reported in $1 - now's the perfect time to start using $2`,
 	`Think $1 is cool? Wait till you try $2`
 ];
