@@ -36,7 +36,7 @@ const extras = [
 	'We need to talk:',
 	'🔥🔥🔥',
 	'Read this summary:',
-	`Check out @freezydorito's overview here.`,
+	`Check out our analysis here.`,
 	'Tell us what you think in the comments!',
 	'Which do you prefer?',
 	'The age of the framework is over.'
