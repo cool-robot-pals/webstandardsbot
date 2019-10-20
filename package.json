@@ -9,9 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "get-title-at-url": "^1.1.6",
     "node-fetch": "^2.6.0",
     "random-item": "^3.0.0",
+    "twitter": "^1.7.1",
     "xml-js": "^1.6.11"
   }
 }

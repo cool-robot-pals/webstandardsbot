@@ -15,7 +15,7 @@ module.exports = [
 	'Mootools',
 	'Elm',
 	'ReasonML',
-	'Nim',
 	'WASM',
 	'dotnet core',
+	'Cordova',
 ];
