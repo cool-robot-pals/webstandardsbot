@@ -3,6 +3,7 @@ const stringys = [
 	`$2 is the $1 killer`,
 	`remember when we used $1 instead of $2?`,
 	`Using $2 to Replace $1`,
+	`Still using $1? $2 will Blow Your Mind`,
 ];
 
 const extras = ['LOL', '😻', '😜', '🥰', 'New blogpost:'];
