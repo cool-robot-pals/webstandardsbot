@@ -5,19 +5,17 @@ const stringys = [
 	`Using $2 to Replace $1`,
 	`Not long until $2 reaches critical mass and decimates $1`,
 	`Who would use $1 over $2 in ${new Date().getFullYear()}?!`,
-	`
+	`	broke: $1 
 		woke: $2
-		broke: $1 
-
 		There I said it.
 	`,
 	`
-	|￣￣￣￣￣￣| 
-	| Use       | 
-	|    $2      | 
-	| OVER   |
-	|     $1     | 
-	|＿＿＿＿＿＿| 
+	|￣￣￣￣￣|
+			Use 
+	    $2      
+			OVER
+	    $1
+	|＿＿＿＿＿| 
 	 (\__/)  || 
 	 (•ㅅ•) || 
 	 / 　 づ`
