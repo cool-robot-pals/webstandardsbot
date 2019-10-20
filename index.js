@@ -36,8 +36,8 @@ const getPost = async () => {
 	const sentence = randomItem(stringys)
 		.replace('$1', randomItem(frameworks))
 		.replace('$2', title);
-	const leftExtra = Math.random() < 0.2 ? randomItem(extras) : null;
-	const rightExtra = Math.random() < 0.2 ? randomItem(extras) : null;
+	const leftExtra = Math.random() < 0.3 ? randomItem(extras) : null;
+	const rightExtra = Math.random() < 0.3 ? randomItem(extras) : null;
 
 	const post = [leftExtra, sentence, rightExtra, item].join(' ').trim();
 
