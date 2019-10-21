@@ -3,7 +3,7 @@ require('dotenv').config();
 const fetch = require('node-fetch');
 const convert = require('xml-js');
 const randomItem = require('random-item');
-const getTitleAtUrl = require('get-title-at-url');
+const cheerio = require('cheerio');
 const Twitter = require('twitter');
 
 const client = new Twitter({
@@ -27,11 +27,9 @@ const getPost = async () => {
 		);
 
 	const item = randomItem(map);
-	const title = await new Promise(yay => {
-		getTitleAtUrl(item, t => {
-			yay(t);
-		});
-	});
+	const html = await (await fetch(item)).text();
+	const $ = cheerio.load(html);
+	const title = $('meta[property="og:title"]').attr('content');
 
 	const sentence = randomItem(stringys)
 		.replace('$1', randomItem(frameworks))

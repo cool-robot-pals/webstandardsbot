@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.2.0",
-    "get-title-at-url": "^1.1.6",
     "node-fetch": "^2.6.0",
     "random-item": "^3.0.0",
     "twitter": "^1.7.1",
