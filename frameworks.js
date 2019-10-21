@@ -57,4 +57,6 @@ module.exports = [
 	'raxjs', // https://github.com/alibaba/rax
 	'nervjs', // https://github.com/NervJS/nerv
 	'infernojs', // https://infernojs.org
+	'Prototype JS', // http://prototypejs.org
+	'script.aculo.us' // http://script.aculo.us
 ];
