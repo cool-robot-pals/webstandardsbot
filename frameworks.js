@@ -54,9 +54,7 @@ module.exports = [
 	'Backbone',
 	'GPU.js',
 	'Styled JSX',
-	'vdo',
-	'rax',
-	'nerv',
-	'infernojs',
-	'hyperons',	
+	'raxjs', // https://github.com/alibaba/rax
+	'nervjs', // https://github.com/NervJS/nerv
+	'infernojs', // https://infernojs.org
 ];
