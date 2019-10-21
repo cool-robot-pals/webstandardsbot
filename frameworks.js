@@ -54,4 +54,9 @@ module.exports = [
 	'Backbone',
 	'GPU.js',
 	'Styled JSX',
+	'vdo',
+	'rax',
+	'nerv',
+	'infernojs',
+	'hyperons',	
 ];
